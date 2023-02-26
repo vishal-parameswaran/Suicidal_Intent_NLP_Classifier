@@ -1,0 +1,12 @@
+Context
+When I thought of building a text classifier to detect Suicide Ideation I couldn't find any public dataset. Hope this can be useful to anyone looking for suicide detection datasets and can save their time 💜.
+
+Content
+The dataset is a collection of posts from "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021.
+
+Collection
+A notebook is provided to show how posts from Reddit can be collected using PushShift API.
+
+# : The ID Number
+text: reddit text.
+class: Classifying the text as a suicide or non-suicide
