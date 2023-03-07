@@ -17,7 +17,7 @@ def custom_standardization(input_data,remove_stopwords=True):
         modified = re.sub(punctuation_re,"",lowercase_value)
         modified = modified.split(' ')
         if remove_stopwords:
-                modified = [word for word in modified.split(' ') if word not in stop_words]
+                modified = [word for word in modified if word not in stop_words]
         stemmed = ' '.join(stemmer.stem(word) for word in modified)
         return stemmed
 

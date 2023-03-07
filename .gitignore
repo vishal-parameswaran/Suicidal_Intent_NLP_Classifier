@@ -1,0 +1,4 @@
+neural_net_test/
+model_checkpoints/*
+neural_net_transformer.ipynb
+__pycache__/*
